@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Fonts/Poppins-Bold.woff2') format('woff2'),
+        url('Fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Fonts/Poppins-Light.woff2') format('woff2'),
+        url('Fonts/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +23,5 @@
 }
 
 body {
-    
+    font-family: 'Poppins';
 }
