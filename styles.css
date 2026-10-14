@@ -189,7 +189,9 @@ button {
 }
 
 .mainHalfOne,
-.mainHalfTwo {
+.mainHalfTwo,
+.mainHalfTwo1,
+.mainHalfTwo2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -201,9 +203,40 @@ button {
     gap: 25px;
 }
 
-.mainCardCon .card {
+.mainCardCon .card,
+.announceCards {
     border-left: 7px solid rgba(255, 166, 0, 0.816);
     background-color: white;
-    padding: 30px 20px;
+    padding: 23px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 13px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.427);
+}
+
+.textCon p {
+    font-size: 14px;
+}
+
+.iconsCon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.announceCards {
+    border-left: none;
+    font-size: 12px;
+}
+
+.announceCards .card {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.427);
+}
+
+#lastCard {
+    border-bottom: none;
 }
