@@ -131,7 +131,8 @@ button {
     border-radius: 15px;
 }
 
-.searchBar:focus {
+.searchBar,
+button:focus {
     outline: 3px solid #1992d4;
     border: no;
 }
@@ -204,7 +205,8 @@ button {
 }
 
 .mainCardCon .card,
-.announceCards {
+.announceCards,
+.trendingCard {
     border-left: 7px solid rgba(255, 166, 0, 0.816);
     background-color: white;
     padding: 23px;
@@ -227,9 +229,11 @@ button {
     gap: 25px;
 }
 
-.announceCards {
+.announceCards,
+.trendingCard {
     border-left: none;
     font-size: 12px;
+    padding: 20px;
 }
 
 .announceCards .card {
@@ -239,4 +243,11 @@ button {
 
 #lastCard {
     border-bottom: none;
+}
+
+.trendingCard .card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
 }
